@@ -28,7 +28,7 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
-vim.opt.guifont = "Monaco:h20"
+vim.opt.guifont = "Monaco:h30"
 vim.opt.cursorline = true
 
 
