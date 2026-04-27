@@ -46,7 +46,7 @@ return require('packer').startup(function(use)
         }
     }
 
-    use('ThePrimeagen/vim-be-good')
+    -- use('ThePrimeagen/vim-be-good')
 
     use('BenGH28/neo-runner.nvim', { run = ':UpdateRemotePlugins' })
 
