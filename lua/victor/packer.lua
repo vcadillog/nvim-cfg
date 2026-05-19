@@ -68,4 +68,13 @@ return require('packer').startup(function(use)
     use { "akinsho/toggleterm.nvim", tag = '*', config = function()
         require("toggleterm").setup()
     end }
+    use({
+        "ajbucci/ipynb.nvim",
+        requires = {
+            "nvim-treesitter/nvim-treesitter",
+            "neovim/nvim-lspconfig",
+            "nvim-tree/nvim-web-devicons",         -- optional, for language icons
+            "folke/snacks.nvim",                   -- optional, for inline images
+        }
+    })
 end)
