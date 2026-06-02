@@ -19,7 +19,9 @@ return require('packer').startup(function(use)
     }
     use('joshdick/onedark.vim')
 
-    use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+    use('nvim-treesitter/nvim-treesitter', {
+        run = ':TSUpdate'
+    })
     use('nvim-lua/plenary.nvim')
     use('ThePrimeagen/harpoon')
     use('mbbill/undotree')
@@ -50,7 +52,7 @@ return require('packer').startup(function(use)
 
     use('BenGH28/neo-runner.nvim', { run = ':UpdateRemotePlugins' })
 
-    use('numToStr/Comment.nvim')
+    use('nvim-mini/mini.comment')
 
     use({
         'nvim-lualine/lualine.nvim',
