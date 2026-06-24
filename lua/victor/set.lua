@@ -31,4 +31,5 @@ vim.opt.colorcolumn = "80"
 vim.opt.guifont = "Monaco:h30"
 vim.opt.cursorline = true
 
-
+vim.opt.shell = "/bin/bash"
+vim.opt.shellcmdflag = "-ic"
