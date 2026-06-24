@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ripgrep \
     fd-find \
     ca-certificates \
+    xclip \
     && rm -rf /var/lib/apt/lists/*
 
 RUN curl -LO https://github.com/tree-sitter/tree-sitter/releases/download/v0.26.9/tree-sitter-cli-linux-x64.zip \
