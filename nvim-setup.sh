@@ -30,6 +30,10 @@ echo "Cloning Neovim Configuration..."
 rm -rf ~/.config/nvim
 git clone https://github.com/vcadillog/nvim-cfg ~/.config/nvim
 
+# Cloning copilot repo
+git clone --depth=1 https://github.com/github/copilot.vim.git \
+  ~/.config/nvim/pack/github/start/copilot.vim
+
 # TODO: Headless plugin synchronization
 
 echo "Setup complete! Install nvim Packages manually to start coding."
